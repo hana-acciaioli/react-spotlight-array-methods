@@ -18,4 +18,6 @@ export const getCountryCodes = (countries) => {
 // OUTPUT: an array of the brands
 // REQS: use .map
 
-export const getBrands = (brands) => {};
+export const getBrands = (brands) => {
+  return brands.map((brands) => brands.brand);
+};
