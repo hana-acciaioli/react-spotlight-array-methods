@@ -28,3 +28,4 @@ export const getYoungDogNames = (dogs) => {
   const filteredData = filterYoungDogs(dogs);
   return filteredData.map((dog) => dog.name);
 };
+// alternative: return filterYoungDogs(dogs).map((dog) => dog.name);
