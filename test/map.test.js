@@ -2,7 +2,8 @@ import { brands, countries, dogs } from '../data';
 import { getBrands, getCountryCodes, getCountryNames } from '../map';
 import { getAverageAge } from '../reduce';
 
-test.skip('getCountryNames should return the country names', () => {
+test('getCountryNames should return the country names', () => {
+  console.log('in test', getCountryNames);
   expect(getCountryNames(countries)).toStrictEqual([
     'Ecuador',
     'Lesotho',
